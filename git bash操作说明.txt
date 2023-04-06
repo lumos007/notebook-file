@@ -1,0 +1,20 @@
+mkdir newgame  //创建文件夹
+
+cd newgame  //进入文件夹
+
+git init  //初始化文件夹，会增加git的文件
+
+ 添加一点文字文档内容，对本文件夹进行一定改动 使用jupyter notebook或者sublime或者记事本，在文件夹内新建一个文档，这时对本文件夹产生了变动.
+
+检查变动，使用
+
+git status
+
+
+
+Step3. 保存远端地址, 并在本地的command line命令行工具中，添加远端地址，这样就把本地和远端链接起来了。要链接起来，还有更简单的方式，直接git clone
+git remote add origin 这里是HTTPS的地址--------------------------------
+​
+Step4. 将变动推送到主干master上
+git push -u origin master
+等下需要输入用户名和密码。这里的密码不是用户的密码，而是网站中生成的token的密码。
